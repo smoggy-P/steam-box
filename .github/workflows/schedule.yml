@@ -17,6 +17,7 @@ jobs:
   build:
     name: Upddate-gist
     runs-on: ubuntu-latest
+    environment: steam_info
     env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: f3619d96b66a65726652b4fb75a18fe9
